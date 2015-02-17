@@ -106,6 +106,8 @@ The repo contains the following components. More libraries are coming soon. ['Wa
   across common cultural standards, as well as support to create custom Encoding Providers.
 
 * **System.Runtime**. Provides a set of unit tests for basic run-time types such as String and Int32.
+ 
+* **System.Runtime.Numerics**. Provides two useful numeric structures, BigInteger and Complex.
 
 * **System.ServiceProcess.ServiceController**. Provides the ServiceController class that represents a Windows service
   and allows you to connect to a running or stopped service, manipulate it, or get information about it.
@@ -125,10 +127,13 @@ The repo contains the following components. More libraries are coming soon. ['Wa
 
 * **Microsoft.Win32.Registry**. Provides support for accessing and modifying the Windows Registry.
 
+* The overall list of items we currently plan to move onto GitHub is [here][typelist].
+
 [roslyn]: https://roslyn.codeplex.com/
 [immutable-msdn]: http://msdn.microsoft.com/en-us/library/dn385366(v=vs.110).aspx
 [simd-post-1]: http://blogs.msdn.com/b/dotnet/archive/2014/04/07/the-jit-finally-proposed-jit-and-simd-are-getting-married.aspx
 [simd-post-2]: http://blogs.msdn.com/b/dotnet/archive/2014/05/13/update-to-simd-support.aspx
+[typelist]: http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-components-postattachments/00-10-58-94-19/NetCore_5F00_OpenSourceUpdate.xlsx
 
 ## License
 
